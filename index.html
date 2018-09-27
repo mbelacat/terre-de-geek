@@ -44,61 +44,91 @@
     </div>
   </div>
 
-  <nav>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">All Products</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Category
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Cat1</a>
+            <a class="dropdown-item" href="#">Cat2</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">cat3</a>
+            <a class="dropdown-item" href="#">cat4</a>
+          </div>
+        </li>
+      </ul>
 
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">All Products</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Category
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Cat1</a>
-          <a class="dropdown-item" href="#">Cat2</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">cat3</a>
-          <a class="dropdown-item" href="#">cat4</a>
-
-        </div>
-      </li>
-    </ul>
-
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
-    </form>
-  </div>
-</nav>
-
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+      </form>
+    </div>
+  </nav>
 </header>
 
 
-
-<!--::::::::::::::::::::::::::::: header start  ------------------------------>
+<!--::::::::::::::::::::::::::::: header end  ------------------------------>
 
 <!--:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
                                     MAIN
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
-<!--:::::::::::::::::::::::::::::  start  ------------------------------>
+<!--:::::::::::::::::::::::::::::  video start  ------------------------------>
+<div>
+  <video poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" playsinline autoplay muted loop>
+    <source src="http://thenewcode.com/assets/videos/polina.webm" type="video/webm">
+    <source src="http://thenewcode.com/assets/videos/polina.mp4" type="video/mp4">
+  </video>
+  <h1>Le Materiel Informatique c'est fantastique</h1>
+</div>
+<!--:::::::::::::::::::::::::::::  video end  ------------------------------>
 
 
+<!--::::::::::::::::::::::::::::: selection of cards start ------------------------------>
+
+<section>
+  <h1>Selection best Products</h1>
+  <div class="cards">
+    <article>
+      <img src="tile.png" alt="">
+      <h3>article's name</h3>
+    </article>
+    <article>
+      <img src="tile.png" alt="">
+      <h3>article's name</h3>
+    </article>
+    <article>
+      <img src="tile.png" alt="">
+      <h3>article's name</h3>
+    </article>
+    <article>
+      <img src="tile.png" alt="">
+      <h3>article's name</h3>
+    </article>
+    <article>
+      <img src="tile.png" alt="">
+      <h3>article's name</h3>
+    </article>
+    <article>
+      <img src="tile.png" alt="">
+      <h3>article's name</h3>
+    </article>
+  </div>
+</section>
 
 
-
-<!--:::::::::::::::::::::::::::::  aside end  ------------------------------>
-
+<!--::::::::::::::::::::::::::::: selection of cards end  ------------------------------>
 
 <!--:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
                                     FOOTER
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
 <!--::::::::::::::::::::::::::::: start  ------------------------------>
 
-<!--::::::::::::::::::::::::::::: end  ------------------------------>
 
 
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
