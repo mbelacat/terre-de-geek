@@ -115,6 +115,9 @@ textarea {
 .dark{
   color: #333641;
 }
+.bgColorLight{
+  background-color:#e6e3e8;
+}
 .bgColorDark{
   background-color: #333641;
 }
@@ -209,7 +212,8 @@ iframe {
 main{
   height: 100%;
   width: 100%;
-  background-color: white
+  background-color: white;
+  margin-bottom: 1em;
 }
 
 section{
@@ -219,9 +223,10 @@ section{
 
 section h2{
   width: 90%;
-  background-color: red;
   justify-content: center;
-  margin: auto;
+  margin: 0em auto;
+  padding: 1em;
+  border-bottom: 1px solid #212529;
 }
 article{
   width:20%;
@@ -236,6 +241,16 @@ article{
 }
 
 
+footer{
+  width: 100%;
+  height :auto;
+  align-items: center;
+}
+
+footer img{
+  width: 5%;
+
+}
 
 /* ==========================================================================
    Helper classes
