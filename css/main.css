@@ -97,13 +97,95 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* ======================  START UTILITY CLASSES  =============================== */
+
+.flex{
+  display: flex;
+}
+.aacenter {
+  align-items: center;
+}
+/* ====================== END UTILITY CLASSES   ============================== */
+
+
+/* ======================  START COMMUN RULES  ================================ */
 
 
 
+/* ======================  END COMMUN RULES  ================================ */
 
 
 
+/* ----------------------------------------------------------------------------
+                               index
+---------------------------------------------------------------------------- */
 
+
+/*:::::::::::::::::::::::::::::::HEADER::::::::::::::::::::::::::::::::::::::::*/
+
+header{
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: green;
+}
+
+nav{
+  height: 30%;
+  width: 100%;
+  background-color: yellow;
+}
+
+h1{
+  height: 100%;
+  width: 60%;
+  justify-content: center;
+}
+
+.logo{
+  height: 100%;
+  width: 15%;
+  justify-content: center;
+  background-color: yellow;
+}
+
+.logo-connection{
+  height: 70%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: pink;
+}
+
+.connection-panier{
+  width: 15%;
+  background-color: yellow;
+  margin: auto;
+}
+/*:::::::::::::::::::::::::::::::::::::MAIN:::::::::::::::::::::::::::::::::::*/
+main{
+  height:80vh;
+  background-color: grey;
+}
+
+
+/* --------------------------- video----------------------------------------*/
+
+/* iframe {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+
+  background-size: cover;
+  transition: 1s opacity;
+} */
 
 
 
