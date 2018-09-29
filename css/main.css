@@ -118,9 +118,9 @@ textarea {
 .bgColorLight{
   background-color:#e6e3e8;
 }
-.bgColorDark{
+/* .bgColorDark{
   background-color: #333641;
-}
+} */
 .flexColumn{
   display: flex;
   flex-direction: column;
@@ -188,13 +188,34 @@ h1{
   width: 15%;
   margin: auto;
 }
-/*:::::::::::::::::::::::::::::::::::::MAIN:::::::::::::::::::::::::::::::::::*/
+/*:::::::::::::::::::::::::::::::::::::MAIN -contact :::::::::::::::::::::::::::::::::::*/
+
+.main-contact {
+  height: 80vh;
+  width: 70%;
+}
+
+article a {
+  position: relative;
+}
+
+.reviews {
+  position: absolute;
+  top:3px;
+  left:5px;
+}
 
 /* --------------------------- video----------------------------------------*/
 
 main{
+  height: 100%;
+  width: 100%;
+  background-color: white;
   padding-top: 20vh;
+  margin-bottom: 1em;
 }
+
+
 
 .video{
   width: 100%;
@@ -207,13 +228,6 @@ iframe {
   z-index: -100;
   background-size: cover;
   transition: 1s opacity;
-}
-
-main{
-  height: 100%;
-  width: 100%;
-  background-color: white;
-  margin-bottom: 1em;
 }
 
 section{
