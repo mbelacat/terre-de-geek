@@ -97,21 +97,256 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* ======================  START UTILITY CLASSES  =============================== */
+
+.flex{
+  display: flex;
+}
+.flex-between{
+  display: flex;
+  justify-content: space-between;
+}
+.jcCenter{
+  justify-content: center;
+}
+.aiCenter {
+  align-items: center;
+}
+.dark{
+  color: #333641;
+}
+.bgColorLight{
+}
+/* .bgColorDark{
+  background-color: #333641;
+} */
+.flexColumn{
+  display: flex;
+  flex-direction: column;
+}
+.fixed{
+  position: fixed;
+}
+
+.flexAround{
+  display: flex;
+  justify-content: space-around;
+}
+/* ====================== END UTILITY CLASSES   ============================== */
+
+
+/* ======================  START COMMUN RULES  ================================ */
+body{
+  font-family: 'Fredoka One', cursive;
+}
+h1 a, h1 a:hover{
+  color: #333641;
+  text-decoration: none;
+
+}
+
+h1{
+  font-weight:bold;
+  padding-left: 3.5em;
+  font-family: 'Fredoka One', cursive;
+}
+
+a:hover, article a{
+  text-decoration: none;
+  position: relative;
+  color: grey ;
+  border-bottom: 1px solid grey;
+}
+
+article a img {
+  width: 100%;
+}
+
+main{
+  background-color:#f2f1ed;
+}
+
+/* ======================  END COMMUN RULES  ================================ */
 
 
 
+/* ----------------------------------------------------------------------------
+                               index
+---------------------------------------------------------------------------- */
 
 
+/*:::::::::::::::::::::::::::::::HEADER::::::::::::::::::::::::::::::::::::::::*/
 
+header{
+  height: 20vh;
+  width: 100%;
+  z-index: 10;
+  background-color:#af997e;
 
+}
 
+nav{
+  height: 30%;
+  width: 100%;
 
+}
+li a:hover{
+  text-decoration:none;
+}
+h1{
+  height: 100%;
+  width: 60%;
+  justify-content: center;
+}
 
+.logo{
+  height: 100%;
+  width: 15%;
+  justify-content: center;
+}
 
+.logo-connection{
+  height: 70%;
+  width: 100%;
+}
 
+.connection-panier{
+  width: 15%;
+  margin: auto;
+}
+/*:::::::::::::::::::::::::::::::::::::MAIN -contact :::::::::::::::::::::::::::::::::::*/
 
+main.contact {
+  height: 120vh;
+  width: 100%;
+}
 
+.reviews {
+  position: absolute;
+  top:3px;
+  left:5px;
+  font-size: 0.8em;
+}
 
+.reviews i{
+    background: -webkit-gradient(linear, left top, left bottom, from(white), to(yellow));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+section h2.contact, section h2.allProducts, section h2.index{
+  width: 50%;
+  text-align: center;
+}
+
+form#contact-form{
+  width: 50%;
+}
+
+/*:::::::::::::::::::::::::::::::::::::MAIN -INDEX :::::::::::::::::::::::::::::::::::*/
+
+main{
+  height: 100%;
+  width: 100%;
+  padding-top: 20vh;
+  padding-bottom: 3em;
+}
+
+.index{
+}
+
+.video{
+  width: 100%;
+  height: 70vh;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  z-index: -100;
+  background-size: cover;
+  transition: 1s opacity;
+}
+
+section{
+  width: 100%;
+  height: auto;
+}
+
+section.index{
+    padding-top: 40vh;
+}
+section.contact{
+  background-color: grey;
+}
+
+section h2{
+  width: 90%;
+  justify-content: center;
+  margin: 0em auto;
+  padding: 1em;
+  border-bottom: 1px solid #212529;
+}
+
+article{
+  width:20%;
+  height:auto;
+}
+
+.line-one, .line-two{
+  width: 100%;
+  height:auto;
+  justify-content: space-around;
+  margin-top: 4em;
+}
+
+/*:::::::::::::::::::::::::::::::MAIN DESCRIPTION::::::::::::::::::::::::::::::::*/
+
+.description{
+  width: 100%;
+  padding-top: 23vh;
+  margin-bottom: 2em;
+}
+
+#map, aside{
+  width: 48%;
+  height: 100%;
+}
+
+iframe{
+  width: 100%;
+  height: 105vh;
+}
+
+h3{
+  border-bottom: 0.01em solid black;
+  margin-bottom: 1em;
+}
+
+.address, aside p{
+  margin-bottom: 1em;
+}
+
+.ligne{
+  width: 50%;
+  background-color: green;
+  border-color: 1px bold black;
+}
+/*:::::::::::::::::::::::::::::::FOOTER::::::::::::::::::::::::::::::::::::::::::*/
+
+footer{
+  width: 100%;
+  height :auto;
+  align-items: center;
+  padding-top: 3em;
+}
+
+footer img{
+  width: 8%;
+  height:
+  margin-bottom: 1em;
+
+}
 
 /* ==========================================================================
    Helper classes
