@@ -115,11 +115,6 @@ textarea {
 .dark{
   color: #333641;
 }
-.bgColorLight{
-}
-/* .bgColorDark{
-  background-color: #333641;
-} */
 .flexColumn{
   display: flex;
   flex-direction: column;
@@ -127,7 +122,6 @@ textarea {
 .fixed{
   position: fixed;
 }
-
 .flexAround{
   display: flex;
   justify-content: space-around;
@@ -182,13 +176,10 @@ header{
   width: 100%;
   z-index: 10;
   background-color:#af997e;
-
 }
-
 nav{
   height: 30%;
   width: 100%;
-
 }
 li a:hover{
   text-decoration:none;
@@ -198,18 +189,15 @@ h1{
   width: 60%;
   justify-content: center;
 }
-
 .logo{
   height: 100%;
   width: 15%;
   justify-content: center;
 }
-
 .logo-connection{
   height: 70%;
   width: 100%;
 }
-
 .connection-panier{
   width: 15%;
   margin: auto;
@@ -217,7 +205,7 @@ h1{
 /*:::::::::::::::::::::::::::::::::::::MAIN -contact :::::::::::::::::::::::::::::::::::*/
 
 main.contact {
-  height: 120vh;
+  height: 125vh;
   width: 100%;
 }
 
@@ -251,15 +239,10 @@ main{
   padding-top: 20vh;
   padding-bottom: 3em;
 }
-
-.index{
-}
-
 .video{
   width: 100%;
   height: 70vh;
 }
-
 iframe {
   width: 100%;
   height: 100%;
@@ -267,19 +250,13 @@ iframe {
   background-size: cover;
   transition: 1s opacity;
 }
-
 section{
   width: 100%;
   height: auto;
 }
-
 section.index{
     padding-top: 40vh;
 }
-section.contact{
-  background-color: grey;
-}
-
 section h2{
   width: 90%;
   justify-content: center;
@@ -287,12 +264,10 @@ section h2{
   padding: 1em;
   border-bottom: 1px solid #212529;
 }
-
 article{
   width:20%;
   height:auto;
 }
-
 .line-one, .line-two{
   width: 100%;
   height:auto;
@@ -307,26 +282,21 @@ article{
   padding-top: 23vh;
   margin-bottom: 2em;
 }
-
 #map, aside{
   width: 48%;
   height: 100%;
 }
-
 iframe{
   width: 100%;
   height: 105vh;
 }
-
 h3{
   border-bottom: 0.01em solid black;
   margin-bottom: 1em;
 }
-
 .address, aside p{
   margin-bottom: 1em;
 }
-
 .ligne{
   width: 50%;
   background-color: green;
@@ -338,14 +308,12 @@ footer{
   width: 100%;
   height :auto;
   align-items: center;
-  padding-top: 3em;
+  padding-top: 2em;
 }
-
 footer img{
   width: 8%;
   height:
   margin-bottom: 1em;
-
 }
 
 /* ==========================================================================
