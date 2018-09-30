@@ -11,6 +11,7 @@
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <link rel="icon" type="image/png" href="favicon.ico" />
+  <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Righteous" rel="stylesheet">
   <!-- Place favicon.ico in the root directory -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="css/normalize.css">
@@ -32,12 +33,11 @@
 <!--::::::::::::::::::::::::::::: header start  ------------------------------>
   <header class="fixed flexColumn">
     <div class="logo-connection flex-between">
-
-      <div class="logo flex aacenter">
-        <a href="index.html"><img width="32px" height="32px" src="tile-wide.png" alt="logo terre de geek"></a>
+      <div class="logo flex aiCenter">
+        <a href="index.html"><img width="150px" height="150px" src="img/logo-terre-de-geek.png" alt="logo terre de geek"></a>
       </div>
       <h1 class="flex"><a href="index.html">TERRE DE GEEK</a></h1>
-      <div class="connection-panier aacenter flex-between">
+      <div class="connection-panier aiCenter flex-between">
         <div class="connection flexColumn">
           <i class="far fa-user"></i>
           <a href="#" class="dark">Connection</a>
@@ -57,6 +57,29 @@
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Reviews
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#"><i class="fas fa-star"><i class="fas fa-star"></i></i></a>
+              <a class="dropdown-item" href="#"><i class="fas fa-star"></i><i class="fas fa-star"><i class="fas fa-star"></i></i></a>
+              <a class="dropdown-item" href="#"><i class="fas fa-star"></i></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></a>
+              <a class="dropdown-item" href="#"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Place
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Conches-en-Ouche</a>
+              <a class="dropdown-item" href="#">Neufchâtel-en-Bray</a>
+              <a class="dropdown-item" href="#">Nouzonville</a>
+              <a class="dropdown-item" href="#">Serqueux</a>
+              <a class="dropdown-item" href="#">Forge-les-eaux</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Category
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -64,6 +87,30 @@
               <a class="dropdown-item" href="#">Cat2</a>
               <a class="dropdown-item" href="#">cat3</a>
               <a class="dropdown-item" href="#">cat4</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Price
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">
+                <input class="form-check-input" type="checkbox" aria-label="checkbox button for following text input">
+                <label class="form-check-label" for="defaultCheck1"> 0 - 10 euros</label>
+              </a>
+              <a class="dropdown-item" href="#">
+                <input class="form-check-input" type="checkbox" aria-label="checkbox button for following text input">
+                <label class="form-check-label" for="defaultCheck1">11 - 20 euros</label>
+              </a>
+              <a class="dropdown-item" href="#">
+                <input class="form-check-input" type="checkbox" aria-label="checkbox button for following text input">
+                <label class="form-check-label" for="defaultCheck1">21 - 30 euros</label>
+              </a>
+              <a class="dropdown-item" href="#">
+                <input class="form-check-input" type="checkbox" aria-label="checkbox button for following text input">
+                <label class="form-check-label" for="defaultCheck1">31 - 40 euros</label>
+              </a>
             </div>
           </li>
         </ul>
@@ -76,1293 +123,1214 @@
     </nav>
   </header>
 
-
-
 <!--::::::::::::::::::::::::::::: header end  ------------------------------>
 
 <!--:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
                                     MAIN
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
 
-<!--::::::::::::::::::::::::::::: navbar start  ------------------------------>
-
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item ">
-        <a class="nav-link" href="">Selection by :</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Reviews
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#"><i class="fas fa-star"><i class="fas fa-star"></i></i></a>
-          <a class="dropdown-item" href="#"><i class="fas fa-star"></i><i class="fas fa-star"><i class="fas fa-star"></i></i></a>
-          <a class="dropdown-item" href="#"><i class="fas fa-star"></i></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></a>
-          <a class="dropdown-item" href="#"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></a>
-        </div>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Place
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Conches-en-Ouche</a>
-          <a class="dropdown-item" href="#">Neufchâtel-en-Bray</a>
-          <a class="dropdown-item" href="#">Nouzonville</a>
-          <a class="dropdown-item" href="#">Serqueux</a>
-          <a class="dropdown-item" href="#">Forge-les-eaux</a>
-
-        </div>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Category
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Cat1</a>
-          <a class="dropdown-item" href="#">Cat2</a>
-          <a class="dropdown-item" href="#">cat3</a>
-          <a class="dropdown-item" href="#">cat4</a>
-        </div>
-      </li>
-
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Price
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">
-            <input class="form-check-input" type="checkbox" aria-label="checkbox button for following text input">
-            <label class="form-check-label" for="defaultCheck1"> 0 - 10 euros</label>
+<main>
+  <section class="flexColumn jcCenter">
+    <h2 class="flex jcCenter allProducts">All products</h2>
+    <div class="cards flexColumn">
+      <div class="line-one flex">
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
           </a>
-          <a class="dropdown-item" href="#">
-            <input class="form-check-input" type="checkbox" aria-label="checkbox button for following text input">
-            <label class="form-check-label" for="defaultCheck1">11 - 20 euros</label>
+        </article>
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
           </a>
-          <a class="dropdown-item" href="#">
-            <input class="form-check-input" type="checkbox" aria-label="checkbox button for following text input">
-            <label class="form-check-label" for="defaultCheck1">21 - 30 euros</label>
+        </article>
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
           </a>
-          <a class="dropdown-item" href="#">
-            <input class="form-check-input" type="checkbox" aria-label="checkbox button for following text input">
-            <label class="form-check-label" for="defaultCheck1">31 - 40 euros</label>
+        </article>
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
           </a>
-        </div>
-      </li>
-    </ul>
-  </div>
-</nav>
+        </article>
+      </div>
+      <div class="line-two flex">
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
 
-<!--::::::::::::::::::::::::::::: navbar end  ------------------------------>
+            </div>
+          </a>
+        </article>
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+      </div>
+      <div class="line-one flex">
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+      </div>
+      <div class="line-two flex">
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
 
+            </div>
+          </a>
+        </article>
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+      </div>
+      <div class="line-one flex">
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+      </div>
+      <div class="line-two flex">
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
 
+            </div>
+          </a>
+        </article>
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+      </div>
+      <div class="line-one flex">
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+      </div>
+      <div class="line-two flex">
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
 
-<!--::::::::::::::::::::::::::::: cards start ------------------------------>
+            </div>
+          </a>
+        </article>
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+      </div>
+      <div class="line-one flex">
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+      </div>
+      <div class="line-two flex">
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
 
-<section class="flexColumn jcCenter">
-  <h2 class="flex jcCenter">Selection best Products</h2>
-  <div class="cards flexColumn">
-    <div class="line-one flex">
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-    </div>
-    <div class="line-two flex">
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
+            </div>
+          </a>
+        </article>
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+      </div>
+      <div class="line-one flex">
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <p>article's name</p>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+      </div>
+      <div class="line-two flex">
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
 
-          </div>
-        </a>
-      </article>
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-    </div>
-    <div class="line-one flex">
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-    </div>
-    <div class="line-two flex">
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
+            </div>
+          </a>
+        </article>
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+      </div>
+      <div class="line-one flex">
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+      </div>
+      <div class="line-two flex">
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
 
-          </div>
-        </a>
-      </article>
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-    </div>
-    <div class="line-one flex">
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-    </div>
-    <div class="line-two flex">
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
+            </div>
+          </a>
+        </article>
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+      </div>
+      <div class="line-one flex">
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+      </div>
+      <div class="line-two flex">
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
 
-          </div>
-        </a>
-      </article>
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
+            </div>
+          </a>
+        </article>
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+      </div>
+      <div class="line-one flex">
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+      </div>
+      <div class="line-two flex">
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+        <article class="flex jcCenter">
+          <a href="#">
+            <img src="icon.png" alt="">
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="bgColorDark">
+              <h4>article's name</h4>
+              <p>36 $</p>
+            </div>
+          </a>
+        </article>
+      </div>
     </div>
-    <div class="line-one flex">
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-    </div>
-    <div class="line-two flex">
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-
-          </div>
-        </a>
-      </article>
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-    </div>
-    <div class="line-one flex">
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-    </div>
-    <div class="line-two flex">
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-
-          </div>
-        </a>
-      </article>
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-    </div>
-    <div class="line-one flex">
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-    </div>
-    <div class="line-two flex">
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-
-          </div>
-        </a>
-      </article>
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-    </div>
-    <div class="line-one flex">
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-    </div>
-    <div class="line-two flex">
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-
-          </div>
-        </a>
-      </article>
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-    </div>
-    <div class="line-one flex">
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-    </div>
-    <div class="line-two flex">
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-
-          </div>
-        </a>
-      </article>
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-    </div>
-    <div class="line-one flex">
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-    </div>
-    <div class="line-two flex">
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-
-          </div>
-        </a>
-      </article>
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-      <article class="flex jcCenter">
-        <a href="#">
-          <img src="icon.png" alt="">
-          <div class="reviews">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="bgColorDark">
-            <h3>article's name</h3>
-            <h3>36 $</h3>
-          </div>
-        </a>
-      </article>
-    </div>
-  </div>
-</section>
+  </section>
 </main>
 <!--::::::::::::::::::::::::::::: selection of cards end  ------------------------------>
 
@@ -1373,12 +1341,10 @@
 
 <!--::::::::::::::::::::::::::::: footer start  ------------------------------>
 <footer class="flexColumn jcCenter bgColorLight">
-
     <img src="icon.png" alt="">
     <p><a href="description.html">Who are us ?</a></p>
     <p><a href="contact.html">Contact us</a></p>
     <p>Follow us</p>
-
 </footer>
 <!--::::::::::::::::::::::::::::: footer start  ------------------------------>
 
